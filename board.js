@@ -58,6 +58,23 @@ export class Board {
     return board;
   }
 
+  isValidMove(player, row, col) {
+    if (player !== one && player !== two) {
+      return false;
+    }
+    if (typeof row !== "number" || typeof col !== "number") {
+      return false;
+    }
+    if (row < 0 || row >= dimension || col < 0 || col >= dimension) {
+      return false;
+    }
+    if (this.fields[row][col] !== empty) {
+      return false;
+    }
+    const validMoves = this.validMoves(player);
+    return [...validMoves].some((move) => move[0] === row && move[1] === col);
+  }
+
   validMoves(player) {
     if (player !== one && player !== two) {
       throw new RangeError(`illegal player ${player}`);
