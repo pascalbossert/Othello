@@ -1,0 +1,43 @@
+{
+  "scriptId": "346",
+  "url": "file:///C:/Users/Pascal%20Bossert/Desktop/m450/othello-grab/WhiteBoxTests/quadratic_equation.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 267,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "solve",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 266,
+          "count": 3
+        },
+        {
+          "startOffset": 78,
+          "endOffset": 176,
+          "count": 1
+        },
+        {
+          "startOffset": 176,
+          "endOffset": 264,
+          "count": 2
+        },
+        {
+          "startOffset": 194,
+          "endOffset": 264,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

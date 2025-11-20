@@ -1,0 +1,27 @@
+SF:C:\Users\Pascal Bossert\Desktop\m450\othello-grab\WhiteBoxTests\fibonacci.js
+FN:1,fibonacci
+FNDA:21,fibonacci
+FNF:1
+FNH:1
+BRDA:2,1,0,18
+BRDA:2,1,1,17
+BRDA:4,1,2,4
+BRDA:5,1,3,10
+BRDA:7,1,4,7
+BRF:5
+BRH:5
+DA:1,1
+DA:2,22
+DA:3,39
+DA:4,39
+DA:5,39
+DA:6,49
+DA:7,39
+DA:8,46
+DA:9,39
+DA:10,39
+DA:11,22
+DA:12,1
+LH:12
+LF:12
+end_of_record

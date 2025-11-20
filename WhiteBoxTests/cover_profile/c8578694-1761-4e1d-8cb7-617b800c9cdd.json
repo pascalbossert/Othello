@@ -1,0 +1,53 @@
+{
+  "scriptId": "335",
+  "url": "file:///C:/Users/Pascal%20Bossert/Desktop/m450/othello-grab/WhiteBoxTests/fibonacci.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 213,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "fibonacci",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 212,
+          "count": 21
+        },
+        {
+          "startOffset": 58,
+          "endOffset": 67,
+          "count": 18
+        },
+        {
+          "startOffset": 69,
+          "endOffset": 210,
+          "count": 17
+        },
+        {
+          "startOffset": 94,
+          "endOffset": 101,
+          "count": 4
+        },
+        {
+          "startOffset": 108,
+          "endOffset": 133,
+          "count": 10
+        },
+        {
+          "startOffset": 140,
+          "endOffset": 200,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}
